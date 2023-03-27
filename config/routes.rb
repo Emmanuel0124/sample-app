@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  get "/greeting", controller: "example_pages", action: "birds"
+  
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
+  
   # Defines the root path route ("/")
   # root "articles#index"
 end
